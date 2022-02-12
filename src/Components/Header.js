@@ -5,7 +5,9 @@ function Header() {
         <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-                <Link className="navbar-brand" to="/">Logo</Link>
+                <Link className="navbar-brand" to="/">
+                <img className="mx-3" src="/images/logo.png" width="95" height="95" class="d-inline-block align-top" alt=""/>
+                </Link>
                 <button
                     class="navbar-toggler"
                     type="button"
