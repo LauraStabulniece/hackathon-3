@@ -7,7 +7,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-6 p-3">
             <span class="text-muted">
-              &copy; 2022 Copyright: Laura, Anastasija, Kristine
+              &copy; 2022 Copyright: Travel Moments
             </span>
           </div>
           <div className="col-md-6 p-3">
