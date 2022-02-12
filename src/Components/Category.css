@@ -21,3 +21,19 @@
 .subsequence {
     padding-top: 10px;
 }
+
+.imgSeason {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.seasonClass {
+    padding: 20px;
+}
+
+.image-season {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
