@@ -8,7 +8,7 @@ function DestinationPage(props) {
     return (
         <div>
             <p class="subsequence">
-                <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> > <Link className='subsequenceColour' to={props.categoryLink}><span >{props.categoryName}</span></Link> > {props.title}</span>
+                <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> &gt; <Link className='subsequenceColour' to={props.categoryLink}><span >{props.categoryName}</span></Link> &gt; {props.title}</span>
             </p>
             <div className="row">
                 <div className="col-6">
