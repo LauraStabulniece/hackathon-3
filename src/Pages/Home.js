@@ -1,11 +1,11 @@
 import Carousel from "../Components/Carousel";
-// import HomePageCategories from "../Components/HomePageCategories";
+import HomeCategories from "./HomeCategories";
 
 function Home() {
   return (
     <div>
       <Carousel />
-      {/* <HomePageCategories /> */}
+      <HomeCategories />
     </div>
   );
 }
