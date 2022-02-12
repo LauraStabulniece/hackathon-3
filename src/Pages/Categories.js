@@ -25,7 +25,7 @@ function Categories() {
     return (
         <div>
             <p class="subsequence">
-                <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> > Categories</span>
+                <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> &gt; Categories</span>
             </p>
             <h2 className='container title-categories'>Categories</h2>
             <Category image={category1.image} title={category1.title} description={category1.description}></Category>
