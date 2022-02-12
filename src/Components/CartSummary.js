@@ -46,30 +46,18 @@ function CartSummary() {
                 <tr className="cart-row">
                   <th scope="row">1</th>
                   <td>
-                    <img
-                      src="images/catecnack.jpg"
-                      width="90"
-                      height="90"
-                      alt=""
-                    />
+                    <img src="/images/3.jpg" width="90" height="90" alt="" />
                   </td>
                   <td>Bali</td>
                   <td>
-                    <div className="col-md-5 d-flex">
-                      <button className="btn btn-link px-2 quantity-change">
-                        <i className="fas fa-minus"></i>
-                      </button>
+                    <div className="col-md-3 d-flex">
                       <input
-                        id="product1Quantity"
                         min="0"
                         name="quantity"
                         value="1"
                         type="number"
                         className="form-control form-control-sm quantity-input"
                       />
-                      <button className="btn btn-link px-2 quantity-change">
-                        <i className="fas fa-plus"></i>
-                      </button>
                     </div>
                   </td>
                   <td className="price">2000</td>
@@ -78,11 +66,11 @@ function CartSummary() {
                     <button className="btn btn-danger">Remove</button>
                   </td>
                 </tr>
-                <tr id="product-2" className="cart-row">
+                <tr className="cart-row">
                   <th scope="row">2</th>
                   <td>
                     <img
-                      src="images/product-img/fancyCat.png"
+                      src="/images/alpine.jpg"
                       width="90"
                       height="90"
                       alt=""
@@ -90,26 +78,17 @@ function CartSummary() {
                   </td>
                   <td>Winter paradise</td>
                   <td>
-                    <div className="col-md-5 d-flex">
-                      <button className="btn btn-link px-2 quantity-change">
-                        <i className="fas fa-minus"></i>
-                      </button>
+                    <div className="col-md-3 d-flex">
                       <input
-                        id="product2Quantity"
                         min="0"
                         name="quantity"
                         value="1"
                         type="number"
                         className="form-control form-control-sm quantity-input"
                       />
-                      <button className="btn btn-link px-2 quantity-change">
-                        <i className="fas fa-plus"></i>
-                      </button>
                     </div>
                   </td>
-                  <td className="price" id="product-2-price">
-                    550
-                  </td>
+                  <td className="price">550</td>
                   <td>550</td>
                   <td>
                     <button className="btn btn-danger">Remove</button>
@@ -119,7 +98,7 @@ function CartSummary() {
                   <th scope="row">3</th>
                   <td>
                     <img
-                      src="images/cat_fish_800x.jpg"
+                      src="/images/florida.jpg"
                       width="90"
                       height="90"
                       alt=""
@@ -127,10 +106,7 @@ function CartSummary() {
                   </td>
                   <td>Spa Weekend in Saaremaa</td>
                   <td>
-                    <div className="col-md-5 d-flex">
-                      <button className="btn btn-link px-2 quantity-change">
-                        <i className="fas fa-minus"></i>
-                      </button>
+                    <div className="col-md-3 d-flex">
                       <input
                         id="product3Quantity"
                         min="0"
@@ -139,9 +115,6 @@ function CartSummary() {
                         type="number"
                         className="form-control form-control-sm quantity-input"
                       />
-                      <button className="btn btn-link px-2 quantity-change">
-                        <i className="fas fa-plus"></i>
-                      </button>
                     </div>
                   </td>
                   <td>200</td>
