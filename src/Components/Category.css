@@ -1,0 +1,23 @@
+.imgMain img {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-categories {
+    padding: 20px;
+}
+
+.subsequenceColour, .card-title a{
+    color: black;
+    text-decoration: none;
+}
+
+.subsequence {
+    padding-top: 10px;
+}
