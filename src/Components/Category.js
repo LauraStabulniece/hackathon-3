@@ -1,9 +1,11 @@
 
-function Carousel() {
+function Category() {
     return (
         <div>
-KAR
+
+
+
         </div>
     )
 }
-export default Carousel;
+export default Category;
