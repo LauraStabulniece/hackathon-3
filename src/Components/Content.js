@@ -1,9 +1,9 @@
-// import Carousel from './Carousel'
+import Carousel from './Carousel'
 function Content() {
     return (
         <div>
 
-{/* <Carousel></Carousel> */}
+<Carousel></Carousel>
         </div>
     )
 }
