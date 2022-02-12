@@ -5,6 +5,7 @@ import '../Components/Category.css'
 import { Link } from "react-router-dom";
 
 function DestinationPage(props) {
+
     return (
         <div>
             <p class="subsequence">
@@ -12,7 +13,7 @@ function DestinationPage(props) {
             </p>
             <div className="row">
                 <div className="col-6">
-                    <FancyBox></FancyBox>
+                    <FancyBox travelPrice={props.travelPrice}></FancyBox>
                 </div>
                 <div className="col-6">
                     <DestinationText title={props.title} text={props.text}></DestinationText>

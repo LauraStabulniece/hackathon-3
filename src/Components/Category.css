@@ -37,3 +37,15 @@
     height: auto;
     padding: 20px;
 }
+
+.priceAndButtonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.travelPrice {
+    color: red;
+    font-weight: bold;
+}
