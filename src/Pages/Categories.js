@@ -32,6 +32,7 @@ function Categories() {
             <Category image={category2.image} title={category2.title} description={category2.description}></Category>
             <Category image={category3.image} title={category3.title} description={category3.description}></Category>
         </div>
+
     )
 }
 export default Categories;
