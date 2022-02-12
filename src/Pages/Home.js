@@ -1,11 +1,11 @@
 import Carousel from "../Components/Carousel";
-import CategoriesMenu from "../Components/CategoriesMenu";
+import HomePageCategories from "../Components/HomePageCategories";
 
 function Home() {
   return (
     <div>
       <Carousel />
-      <CategoriesMenu />
+      <HomePageCategories />
     </div>
   );
 }
