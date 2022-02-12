@@ -6,7 +6,6 @@ function CategoriesPage() {
     <Category Image="cc" Title="" Description="cc"></Category>
     <Category Image="cc" Title="" Description="cc"></Category>
     <Category Image="cc" Title="" Description="cc"></Category>
-
         </div>
     )
 }
