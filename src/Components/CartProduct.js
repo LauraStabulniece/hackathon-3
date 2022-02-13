@@ -38,7 +38,7 @@ function CartProduct() {
                   <td className="price">2000</td>
                   <td className="product-total-price">2000</td>
                   <td>
-                    <button className="btn btn-danger">Remove</button>
+                    <button className="btn btn-secondary">Remove</button>
                   </td>
                 </tr>
                 <tr id="product-2" className="cart-row">
@@ -62,7 +62,7 @@ function CartProduct() {
                   </td>
                   <td>550</td>
                   <td>
-                    <button className="btn btn-danger">Remove</button>
+                    <button className="btn btn-secondary">Remove</button>
                   </td>
                 </tr>
                 <tr id="product-3" className="cart-row">
@@ -84,17 +84,17 @@ function CartProduct() {
                   <td>200</td>
                   <td>200</td>
                   <td>
-                    <button className="btn btn-danger">Remove</button>
+                    <button className="btn btn-secondary">Remove</button>
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
           <div className="col-md-10 d-flex justify-content-end">
-            <h2>
+            <h4>
               Total:
               <span className="p-1">2750,-</span>
-            </h2>
+            </h4>
           </div>
         </div>
       </div>
