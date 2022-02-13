@@ -5,6 +5,7 @@ import Courchevel from "../Pages/Courchevel";
 import Cart from "../Pages/Cart";
 import Categories from "../Pages/Categories";
 import Home from "../Pages/Home";
+import CategoryProduct1 from "../Pages/CategoryProduct1";
 
 function Content() {
     return (
@@ -12,6 +13,7 @@ function Content() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/categories" element={<Categories />} />
+                <Route path="/CategoryProduct1" element={<CategoryProduct1 />} />
                 <Route path="/cart" element={<Cart/>} />
                 <Route path="/Bali" element={<BaliTravel/>} />
                 <Route path="/Norway" element={<NorwayTravel/>} />

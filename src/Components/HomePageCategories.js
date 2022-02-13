@@ -6,24 +6,42 @@ function HomePageCategories(props) {
     const title = props.title;
 
     return (
+
         <div>
-            <div className="card">
-                <div className="d-flex">
-                    <div className="row">
-                        <div className="col-md-2">
-                            <img src={img} alt="" />
+            {/* <div className="col-md-12 p-3">
+                <div className="card">
+                    <div className="d-flex">
+                        <div className="row">
+                            <div className="col-md-2">
+                                <img src={img} alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-md-3">
-                        <div className="card-body">
-                            <Link to="/categories">{title}</Link>
-                            <p className="card-text">{description}</p>
+                        <div className="col-md-2">
+                            <div className="card-body">
+                                <Link className="link-primary" to="/categories" style={{textDecoration: "none"}}>{title}</Link>
+                                <p className="card-text">{description}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     )
+} */}
+
+            <div className="card">
+                <img src={img} alt="" />
+                <div className="card-body">
+                    <Link className="link-primary" to="/categories" style={{ textDecoration: "none" }}>{title}</Link>
+                    <p className="card-text">{description}</p>
+                </div>
+            </div>
+        </div>
+
+    )
 }
 
+
+
 export default HomePageCategories;
+
