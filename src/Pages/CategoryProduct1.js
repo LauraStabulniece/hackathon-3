@@ -57,7 +57,7 @@ function CategoryProduct1() {
     }
     const product10 = {
         img: '/images/10newyork.jpg',
-        title: 'New York',
+        title: 'NewYork',
         description: '1900 €',
     }
 
@@ -66,7 +66,7 @@ function CategoryProduct1() {
             <p class="subsequence">
                 <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> &gt; Summer Destination</span>
             </p>
-            <p><h1 style={{ marginTop: "10px" }}>Summer Destination</h1></p>
+            <p><h1 style={{ marginTop: "10px", fontSize: "50px" }} className="nav-link">Summer Destination</h1></p>
             <Category1 img={category1.img} title={category1.title} description={category1.description} />
             <div className="row">
                 <div className="col-2">
