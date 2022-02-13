@@ -63,7 +63,7 @@ function CartSummary() {
                   <td className="price">2000</td>
                   <td className="product-total-price">2000</td>
                   <td>
-                    <button className="btn btn-danger">Remove</button>
+                    <button className="btn btn-secondary">Remove</button>
                   </td>
                 </tr>
                 <tr className="cart-row">
@@ -91,7 +91,7 @@ function CartSummary() {
                   <td className="price">550</td>
                   <td>550</td>
                   <td>
-                    <button className="btn btn-danger">Remove</button>
+                    <button className="btn btn-secondary">Remove</button>
                   </td>
                 </tr>
                 <tr id="product-3" className="cart-row">
@@ -120,16 +120,16 @@ function CartSummary() {
                   <td>200</td>
                   <td>200</td>
                   <td>
-                    <button className="btn btn-danger">Remove</button>
+                    <button className="btn btn-secondary">Remove</button>
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-11 d-flex justify-content-end">
-            <h2>Total: 2750,-</h2>
+        <div className="row px-3">
+          <div className="col-md-12 d-flex justify-content-end mx-3">
+            <h4>Total: 2750,-</h4>
           </div>
         </div>
       </div>
