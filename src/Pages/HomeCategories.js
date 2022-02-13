@@ -23,7 +23,7 @@ function HomeCategories() {
 
     return (
         <div>
-            <p><h1 style={{margin: "30px"}}>CHOOSE ONE:</h1></p>
+            <p><h1 style={{marginTop: "30px", fontSize: "50px"}} className="nav-link">CHOOSE ONE:</h1></p>
             <div className="row d-flex">
                 <div className="col">
                 <HomePageCategories img={category1.img} description={category1.description} title={category1.title} />

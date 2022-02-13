@@ -32,7 +32,7 @@ function HomePageCategories(props) {
             <div className="card">
                 <img src={img} alt="" />
                 <div className="card-body">
-                    <Link className="link-primary" to="/categories" style={{ textDecoration: "none" }}>{title}</Link>
+                    <Link className="link-primary" className="nav-link" to="/summerdestination" style={{ textDecoration: "none", fontSize:"30px" }}>{title}</Link>
                     <p className="card-text">{description}</p>
                 </div>
             </div>
