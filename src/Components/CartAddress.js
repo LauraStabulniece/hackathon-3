@@ -30,7 +30,7 @@ function CartAddress() {
         </div>
         <div className="row px-5">
           <div className="col-md-12 d-flex justify-content-end">
-            <button className="btn btn-success">Add Addresses</button>
+            <button className="btn btn-primary">Add Addresses</button>
           </div>
         </div>
       </form>

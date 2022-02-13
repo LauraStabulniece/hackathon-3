@@ -23,7 +23,7 @@ function CartProduct() {
                   <th scope="row">1</th>
                   <td>
                     <img
-                      src="/images/3.jpg"
+                      src="/images/1bali.jpg"
                       width="90"
                       height="90"
                       alt=""
@@ -45,7 +45,7 @@ function CartProduct() {
                   <th scope="row">2</th>
                   <td>
                     <img
-                      src="/images/alpine.jpg"
+                      src="/images/7alpine.jpg"
                       width="90"
                       height="90"
                       alt=""
@@ -69,7 +69,7 @@ function CartProduct() {
                   <th scope="row">3</th>
                   <td>
                     <img
-                      src="/images/florida.jpg"
+                      src="/images/3.jpg"
                       width="90"
                       height="90"
                       alt=""
