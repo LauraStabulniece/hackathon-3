@@ -10,10 +10,10 @@ function Cart() {
         <div className="col-sm-12 my-3">
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
-              <li className="breadcrumb-item">
+              <li className="breadcrumb-item nav-link">
                 <Link to="/">Home</Link>
               </li>
-              <li className="breadcrumb-item active" aria-current="page">
+              <li className="breadcrumb-item active nav-link" aria-current="page">
                 Cart
               </li>
             </ol>
@@ -21,8 +21,8 @@ function Cart() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-12 p-3">
-          <h2>Cart</h2>
+        <div className="col-md-12 p-3 nav-link">
+          <h1>Cart</h1>
         </div>
       </div>
       <div className="row">
