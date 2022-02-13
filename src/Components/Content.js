@@ -13,7 +13,7 @@ function Content() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/categories" element={<Categories />} />
-                <Route path="/CategoryProduct1" element={<CategoryProduct1 />} />
+                <Route path="/summerdestination" element={<CategoryProduct1 />} />
                 <Route path="/cart" element={<Cart/>} />
                 <Route path="/Bali" element={<BaliTravel/>} />
                 <Route path="/Norway" element={<NorwayTravel/>} />
