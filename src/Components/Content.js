@@ -6,6 +6,8 @@ import Cart from "../Pages/Cart";
 import Categories from "../Pages/Categories";
 import Home from "../Pages/Home";
 import CategoryProduct1 from "../Pages/CategoryProduct1";
+import CategoryProduct2 from "../Pages/CategoryProduct2";
+import CategoryProduct3 from "../Pages/CategoryProduct3";
 
 function Content() {
     return (
@@ -14,6 +16,8 @@ function Content() {
                 <Route path="/" element={<Home />} />
                 <Route path="/categories" element={<Categories />} />
                 <Route path="/summerdestination" element={<CategoryProduct1 />} />
+                <Route path="/winterdestination" element={<CategoryProduct2 />} />
+                <Route path="/hiking" element={<CategoryProduct3 />} />
                 <Route path="/cart" element={<Cart/>} />
                 <Route path="/Bali" element={<BaliTravel/>} />
                 <Route path="/Norway" element={<NorwayTravel/>} />
