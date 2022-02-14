@@ -24,24 +24,32 @@ function Categories() {
 
     return (
         <div>
-            <p class="subsequence">
-                <Link className='nav-link' to="/">Home &gt; <Link className='nav-link' to="/categories">Categories</Link></Link>
-            </p>
-
-            <h2 className='container title-categories nav-link'>Categories</h2>
+            <div className="row">
+                <div className="col-sm-12 my-3">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item nav-link">
+                                <Link className="subsequenceColour" to="/">Home</Link>
+                            </li>
+                            <li className="breadcrumb-item active nav-link" aria-current="page">
+                                Categories
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <h1 className='container nav-link' style={{ fontSize: "50px" }}>Categories</h1>
             <hr></hr>
-            <Link to='/summerdestination'><h4 className="nav-link title-centered">{category1.title}</h4></Link>
+            <Link to='/summerdestination' style={{ textDecoration: "none", fontSize: "20px" }}><h4 className="nav-link title-centered" >{category1.title}</h4></Link>
             <Category image={category1.image} title={category1.title} description={category1.description}></Category>
             <hr></hr>
-            <Link to='/winterdestination'><h4 className="nav-link title-centered">{category2.title}</h4></Link>
+            <Link to='/winterdestination' style={{ textDecoration: "none", fontSize: "20px" }}><h4 className="nav-link title-centered">{category2.title}</h4></Link>
             <Category image={category2.image} title={category2.title} description={category2.description}></Category>
             <hr></hr>
-            <Link to='/hiking'><h4 className="nav-link title-centered">{category3.title}</h4></Link>
+            <Link to='/hiking' style={{ textDecoration: "none", fontSize: "20px" }}><h4 className="nav-link title-centered">{category3.title}</h4></Link>
             <Category image={category3.image} title={category3.title} description={category3.description}></Category>
         </div>
 
     )
 }
 export default Categories;
-
-
