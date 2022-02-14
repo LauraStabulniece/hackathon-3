@@ -49,3 +49,8 @@
     color: red;
     font-weight: bold;
 }
+
+.title-centered {
+    padding-left: 320px;
+
+}

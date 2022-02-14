@@ -28,8 +28,14 @@ function Categories() {
                 <Link className='subsequenceColour nav-link' to="/"><span >Home</span></Link><span className='nav-link'> &gt; Categories</span>
             </p>
             <h2 className='container title-categories nav-link'>Categories</h2>
+            <hr></hr>
+            <Link to='/summerdestination'><h4 className="nav-link title-centered">{category1.title}</h4></Link>
             <Category image={category1.image} title={category1.title} description={category1.description}></Category>
+            <hr></hr>
+            <Link to='/winterdestination'><h4 className="nav-link title-centered">{category2.title}</h4></Link>
             <Category image={category2.image} title={category2.title} description={category2.description}></Category>
+            <hr></hr>
+            <Link to='/hiking'><h4 className="nav-link title-centered">{category3.title}</h4></Link>
             <Category image={category3.image} title={category3.title} description={category3.description}></Category>
         </div>
 
