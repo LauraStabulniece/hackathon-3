@@ -87,17 +87,17 @@ function CategoryProduct2() {
                 </div>
                 <div className="col-2">
                     <Product img={product2.img} />
-                    <Link className="link-dark" to="/bali" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product2.title}</Link>
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product2.title}</Link>
                     <Product description={product2.description} />
                 </div>
                 <div className="col-2">
                     <Product img={product3.img} />
-                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product3.title}</Link>
+                    <Link className="link-dark" to="/norway" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product3.title}</Link>
                     <Product description={product3.description} />
                 </div>
                 <div className="col-2">
                     <Product img={product4.img} />
-                    <Link className="link-dark" to="/bali" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product4.title}</Link>
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product4.title}</Link>
                     <Product description={product4.description} />
                 </div>
                 <div className="col-2">
