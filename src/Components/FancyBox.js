@@ -3,7 +3,6 @@ import '../Components/Category.css'
 function FancyBox(props) {
     return (
         <div className="row">
-
             <div className="row">
                 <a href="main.jpg" data-fancybox="gallery">
                     <img src="main.jpg" className="imgSeason" />

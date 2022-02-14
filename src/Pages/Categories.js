@@ -25,8 +25,9 @@ function Categories() {
     return (
         <div>
             <p class="subsequence">
-                <Link className='subsequenceColour nav-link' to="/"><span >Home</span></Link><span className='nav-link'> &gt; Categories</span>
+                <Link className='nav-link' to="/">Home &gt; <Link className='nav-link' to="/categories">Categories</Link></Link>
             </p>
+
             <h2 className='container title-categories nav-link'>Categories</h2>
             <hr></hr>
             <Link to='/summerdestination'><h4 className="nav-link title-centered">{category1.title}</h4></Link>
