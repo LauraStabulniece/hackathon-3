@@ -17,7 +17,7 @@ function CategoryProduct3() {
     }
     const product2 = {
         img: '/images/33.jpg',
-        title: 'Courchevel',
+        title: 'Norway',
         description: '2500 €',
     }
     const product3 = {
@@ -87,7 +87,7 @@ function CategoryProduct3() {
                 </div>
                 <div className="col-2">
                     <Product img={product2.img} />
-                    <Link className="link-dark" to="/courchevel" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product2.title}</Link>
+                    <Link className="link-dark" to="/norway" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product2.title}</Link>
                     <Product description={product2.description} />
                 </div>
                 <div className="col-2">
