@@ -8,7 +8,6 @@ function Category(props) {
    
     return (
         <div>
-            {/* <hr></hr> */}
             <div className="row flexcolumn">
                 <div className="col-3 columnPadding imgMain">
                     <img src={image} />

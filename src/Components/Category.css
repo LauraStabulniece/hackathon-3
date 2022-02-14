@@ -11,6 +11,8 @@
 
 .title-categories {
     padding: 20px;
+    font-weight: bold;
+    font-size: 30px !important;
 }
 
 .subsequenceColour, .card-title a{
@@ -53,4 +55,8 @@
 .title-centered {
     padding-left: 320px;
 
+}
+
+.article-text {
+    font-weight: 600;
 }

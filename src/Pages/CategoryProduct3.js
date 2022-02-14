@@ -73,9 +73,20 @@ function CategoryProduct3() {
 
     return (
         <div>
-            <p class="subsequence">
-                <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> &gt; Hiking</span>
-            </p>
+            <div className="row">
+                <div className="col-sm-12 my-3">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item nav-link">
+                                <Link className="subsequenceColour" to="/">Home</Link>
+                            </li>
+                            <li className="breadcrumb-item active nav-link" aria-current="page">
+                                Hiking
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
             <p><h1 style={{ marginTop: "10px", marginLeft: "60px", fontSize: "50px" }} className="nav-link">Hiking</h1></p>
             <CategoriesHome img={category3.img} title={category3.title} description={category3.description} />
              

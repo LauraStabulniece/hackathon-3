@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import BaliTravel from "../Pages/BaliTravel";
+import BalliTravel from "../Pages/BalliTravel";
 import NorwayTravel from "../Pages/NorwayTravel";
 import Courchevel from "../Pages/Courchevel";
 import Cart from "../Pages/Cart";
@@ -19,7 +19,7 @@ function Content() {
                 <Route path="/winterdestination" element={<CategoryProduct2 />} />
                 <Route path="/hiking" element={<CategoryProduct3 />} />
                 <Route path="/cart" element={<Cart/>} />
-                <Route path="/Bali" element={<BaliTravel/>} />
+                <Route path="/Bali" element={<BalliTravel/>} />
                 <Route path="/Norway" element={<NorwayTravel/>} />
                 <Route path="/Courchevel" element={<Courchevel/>} />
             </Routes>
