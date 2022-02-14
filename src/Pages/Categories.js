@@ -28,7 +28,7 @@ function Categories() {
                 <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> &gt; Categories</span>
             </p>
             <h2 className='container title-categories'>Categories</h2>
-            <Category image={category1.image} title={category1.title} description={category1.description}></Category>
+            <Category  image={category1.image} title={category1.title} description={category1.description}></Category>
             <Category image={category2.image} title={category2.title} description={category2.description}></Category>
             <Category image={category3.image} title={category3.title} description={category3.description}></Category>
         </div>

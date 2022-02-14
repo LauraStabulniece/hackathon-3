@@ -1,5 +1,5 @@
 import Category1 from "../Components/Category1";
-import Product1 from "../Components/Product1";
+import Product from "../Components/Product";
 import { Link } from "react-router-dom";
 
 function CategoryProduct1() {
@@ -12,11 +12,11 @@ function CategoryProduct1() {
     }
     const product1 = {
         img: '/images/2grandcanyon.jpg',
-        title: 'Canyon',
+        title: 'Peru',
         description: '1900 €',
     }
     const product2 = {
-        img: '/images/1bali.jpg',
+        img: '/images/88.jpg',
         title: 'Bali',
         description: '2000 €',
     }
@@ -37,7 +37,7 @@ function CategoryProduct1() {
     }
     const product6 = {
         img: '/images/6northkorea.jpg',
-        title: 'N/Korea',
+        title: 'Japan',
         description: '3100 €',
     }
     const product7 = {
@@ -57,7 +57,7 @@ function CategoryProduct1() {
     }
     const product10 = {
         img: '/images/10newyork.jpg',
-        title: 'NewYork',
+        title: 'Chile',
         description: '1900 €',
     }
 
@@ -70,36 +70,36 @@ function CategoryProduct1() {
             <Category1 img={category1.img} title={category1.title} description={category1.description} />
             <div className="row">
                 <div className="col-2">
-                    <Product1 img={product1.img} title={product1.title} description={product1.description} />
+                    <Product img={product1.img} title={product1.title} description={product1.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product2.img} title={product2.title} description={product2.description} />
+                    <Product img={product2.img} title={product2.title} description={product2.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product3.img} title={product3.title} description={product3.description} />
+                    <Product img={product3.img} title={product3.title} description={product3.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product4.img} title={product4.title} description={product4.description} />
+                    <Product img={product4.img} title={product4.title} description={product4.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product5.img} title={product5.title} description={product5.description} />
+                    <Product img={product5.img} title={product5.title} description={product5.description} />
                 </div>
             </div>
             <div className="row">
                 <div className="col-2">
-                    <Product1 img={product6.img} title={product6.title} description={product6.description} />
+                    <Product img={product6.img} title={product6.title} description={product6.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product7.img} title={product7.title} description={product7.description} />
+                    <Product img={product7.img} title={product7.title} description={product7.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product8.img} title={product8.title} description={product8.description} />
+                    <Product img={product8.img} title={product8.title} description={product8.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product9.img} title={product9.title} description={product9.description} />
+                    <Product img={product9.img} title={product9.title} description={product9.description} />
                 </div>
                 <div className="col-2">
-                    <Product1 img={product10.img} title={product10.title} description={product10.description} />
+                    <Product img={product10.img} title={product10.title} description={product10.description} />
                 </div>
             </div>
         </div>
