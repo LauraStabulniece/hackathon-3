@@ -11,7 +11,7 @@ function Cart() {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item nav-link">
-                <Link to="/">Home</Link>
+                <Link className="subsequenceColour" to="/">Home</Link>
               </li>
               <li className="breadcrumb-item active nav-link" aria-current="page">
                 Cart
