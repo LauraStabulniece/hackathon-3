@@ -1,4 +1,6 @@
 import HomePageCategories from '../Components/HomePageCategories'
+import { Link } from "react-router-dom";
+
 
 function HomeCategories() {
 
@@ -23,19 +25,25 @@ function HomeCategories() {
 
     return (
         <div>
-            <p><h1 style={{marginTop: "30px", fontSize: "50px"}} className="nav-link">CHOOSE ONE:</h1></p>
+            <p><h1 style={{ marginTop: "30px", fontSize: "50px" }} className="nav-link">CHOOSE ONE:</h1></p>
             <div className="row d-flex">
                 <div className="col">
-                <HomePageCategories img={category1.img} description={category1.description} title={category1.title} />
+                    <HomePageCategories img={category1.img}/>
+                    <Link className="link-primary" className="nav-link" to="" style={{ textDecoration: "none", fontSize: "35px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)"}} to="/summerdestination">{category1.title}</Link>
+                    <HomePageCategories description={category1.description}/>
                 </div>
                 <div className="col">
-                <HomePageCategories img={category2.img} description={category2.description} title={category2.title} />
+                    <HomePageCategories img={category2.img} />
+                    <Link className="link-primary" className="nav-link" to="" style={{ textDecoration: "none", fontSize: "35px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)"}} to="/winterdestination">{category2.title}</Link>
+                    <HomePageCategories description={category2.description}/>
                 </div>
                 <div className="col">
-                <HomePageCategories img={category3.img} description={category3.description} title={category3.title} />
+                    <HomePageCategories img={category3.img} />
+                    <Link className="link-primary" className="nav-link" to="" style={{ textDecoration: "none", fontSize: "35px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)"}} to="/hiking">{category3.title}</Link>
+                    <HomePageCategories description={category3.description}/>
                 </div>
-        </div>
-                
+            </div>
+
         </div>
     )
 }

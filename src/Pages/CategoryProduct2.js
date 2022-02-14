@@ -1,6 +1,6 @@
-import Category2 from "../Components/Category2";
 import Product from "../Components/Product";
 import { Link } from "react-router-dom";
+import CategoriesHome from "../Components/CategoriesHome";
 
 function CategoryProduct2() {
 
@@ -35,18 +35,18 @@ function CategoryProduct2() {
         title: 'Latvia',
         description: '200 €',
     }
-    const product6 = {
+    const product7 = {
         img: '/images/97.jpg',
         title: 'Italy',
         description: '980 €',
     }
-    const product7 = {
+    const product6 = {
         img: '/images/98.jpg',
         title: 'Georgia',
         description: '470 €',
     }
     const product8 = {
-        img: '/images/99.jpg',
+        img: '/images/555.jpg',
         title: 'Austria',
         description: '800 €',
     }
@@ -55,9 +55,19 @@ function CategoryProduct2() {
         title: 'Russia',
         description: '330 €',
     }
-    const product10 = {
-        img: '/images/9999.jpg',
+    const product12 = {
+        img: '/images/55.jpg',
         title: 'Slovakia',
+        description: '500 €',
+    }
+    const product11 = {
+        img: '/images/9999.jpg',
+        title: 'France',
+        description: '500 €',
+    }
+    const product10 = {
+        img: '/images/5555.jpg',
+        title: 'Lithuania',
         description: '500 €',
     }
 
@@ -67,42 +77,75 @@ function CategoryProduct2() {
                 <Link className='subsequenceColour' to="/"><span >Home</span></Link><span> &gt; Winter Destination</span>
             </p>
             <p><h1 style={{ marginTop: "10px", fontSize: "50px" }} className="nav-link">Winter Destination</h1></p>
-            <Category2 img={category2.img} title={category2.title} description={category2.description} />
+            <CategoriesHome img={category2.img} title={category2.title} description={category2.description} />
+             
+            <div className="row" style={{marginTop: "30px", marginBottom: "30px"}}>
+                <div className="col-2">
+                    <Product img={product1.img} />
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product1.title}</Link>
+                    <Product description={product2.description} />
+                </div>
+                <div className="col-2">
+                    <Product img={product2.img} />
+                    <Link className="link-dark" to="/bali" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product2.title}</Link>
+                    <Product description={product2.description} />
+                </div>
+                <div className="col-2">
+                    <Product img={product3.img} />
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product3.title}</Link>
+                    <Product description={product3.description} />
+                </div>
+                <div className="col-2">
+                    <Product img={product4.img} />
+                    <Link className="link-dark" to="/bali" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product4.title}</Link>
+                    <Product description={product4.description} />
+                </div>
+                <div className="col-2">
+                    <Product img={product5.img} />
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product5.title}</Link>
+                    <Product description={product5.description} />
+                </div>
+                <div className="col-2">
+                    <Product img={product6.img} />
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product6.title}</Link>
+                    <Product description={product6.description} />
+                </div>
+                </div>
             <div className="row">
                 <div className="col-2">
-                    <Product img={product1.img} title={product1.title} description={product1.description} />
+                    <Product img={product7.img} />
+                    <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product7.title}</Link>
+                    <Product description={product7.description} />
                 </div>
-                <div className="col-2">
-                    <Product img={product2.img} title={product2.title} description={product2.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product3.img} title={product3.title} description={product3.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product4.img} title={product4.title} description={product4.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product5.img} title={product5.title} description={product5.description} />
+                
+                    <div className="col-2">
+                        <Product img={product8.img} />
+                        <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product8.title}</Link>
+                        <Product description={product8.description} />
+                    </div>
+                    <div className="col-2">
+                        <Product img={product9.img} />
+                        <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product9.title}</Link>
+                        <Product description={product9.description} />
+                    </div>
+                    <div className="col-2">
+                        <Product img={product10.img} />
+                        <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product10.title}</Link>
+                        <Product description={product10.description} />
+                    </div>
+                    <div className="col-2">
+                        <Product img={product11.img} />
+                        <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product11.title}</Link>
+                        <Product description={product11.description} />
+                    </div>
+                    <div className="col-2">
+                        <Product img={product12.img} />
+                        <Link className="link-dark" to="" className="nav-link" style={{ textDecoration: "none", fontSize: "30px", textAlign: "center", backgroundColor: "rgba(250, 250, 250)" }}>{product12.title}</Link>
+                        <Product description={product12.description} />
+                    </div>
+
                 </div>
             </div>
-            <div className="row">
-                <div className="col-2">
-                    <Product img={product6.img} title={product6.title} description={product6.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product7.img} title={product7.title} description={product7.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product8.img} title={product8.title} description={product8.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product9.img} title={product9.title} description={product9.description} />
-                </div>
-                <div className="col-2">
-                    <Product img={product10.img} title={product10.title} description={product10.description} />
-                </div>
-            </div>
-        </div>
 
     )
 }
