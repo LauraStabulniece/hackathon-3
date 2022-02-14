@@ -56,4 +56,3 @@ function FancyBox(props) {
 }
 
 export default FancyBox;
-
