@@ -34,4 +34,3 @@ function BaliTravel() {
     )
 }
 export default BaliTravel;
-
